@@ -6,10 +6,8 @@ image: "/img/uploads/img-wa0001.jpg"
 layout: layouts/post.njk
 ---
 
-A **Federación Provincial de Centros Públicos de A Coruña** convoca unha manifestación o vindeiro sábado 28 de febreiro, con saída na Praza de Ourense e remate no Parrote.
+A Federación Provincial de Centros Públicos de A Coruña convoca unha manifestación o vindeiro sábado 28 de febreiro, con saída na Praza de Ourense e remate no Parrote. 
 
-Adxuntamos nota de prensa explicativa.
+Adxuntamos nota de prensa explicativa e animamos a todas as familias a participar na defensa da educación pública.
 
-A comunidade educativa manifestante irá vestida coa temática de **superheroes**, representando como é o día a día das familias e profesionais que teñen que afrontar esta realidade.
-
-📄 [Descargar nota de prensa (PDF)](#)
+[Nota de prensa Federación ANPAs](/docs/nota-prensa-federacion.pdf)

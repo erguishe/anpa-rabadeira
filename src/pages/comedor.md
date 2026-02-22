@@ -1,16 +1,27 @@
 ---
 title: "Pago Comedor"
-layout: layouts/page.njk
 permalink: /comedor/
+layout: layouts/page.njk
 ---
 
-Para todas aquelas familias que teñen dúbidas sobre os trámites para facer o pagamento do comedor, adxuntamos as diferentes vías nas que poderedes facelo sen ter que ir ao centro.
+Para todas aquelas familias que teñan dúbidas sobre os trámites para facer o pagamento do comedor, adxuntamos as diferentes vías nas que podedes facelo sen ter que ir ao centro. 
 
-## Formas de pago
+Tamén tendes instruccións detalladas na web do centro:
+[Instruccións Comedor CEIP Rabadeira](http://www.edu.xunta.gal/centros/ceiprabadeira/node/268)
 
-Podedes realizar o pago do comedor a través de:
+### Pago a través da ATRIGA (Axencia Tributaria de Galicia)
 
-1. **Transferencia bancaria** — indicando o nome do/a alumno/a no concepto
-2. **Plataforma online de Jardanay** — [www.jardanay.es](http://www.jardanay.es/)
+Podes facer o pago telemático a través da oficina virtual: [https://ovt.atriga.gal](https://ovt.atriga.gal)
 
-Calquera dúbida: 📧 anpaensinorabadeira@gmail.com
+**Pasos a seguir:**
+1. No apartado de **CIDADÁNS**, premes "Iniciar taxa".
+2. Podes acceder libremente cando o candado estea aberto (sen certificado dixital) ou con certificado.
+3. Elixe o pago a través de **TPV** (tarxeta bancaria).
+4. Introduce os códigos correspondentes ao comedor e completa os datos requeridos.
+5. Unha vez feito o pago, debes enviar o xustificante (PDF ou JPG) ao email [comedor.rabadeira@gmail.com](mailto:comedor.rabadeira@gmail.com) indicando o nome e curso do alumno.
+
+### Outras formas de pago
+- Presencialmente na oficina bancaria.
+- A través da plataforma **Abalar**.
+
+Sempre recomendamos consultar as guías oficiais do centro para calquera cambio nos códigos ou procedementos.
