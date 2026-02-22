@@ -1,7 +1,6 @@
 ---
 title: "Servizo Madrugadores"
 permalink: /madrugadores/
-image: "/img/uploads/madrugadores-rabadeira.jpg"
 layout: layouts/page.njk
 ---
 

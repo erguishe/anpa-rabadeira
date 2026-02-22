@@ -2,7 +2,6 @@
 title: "Obradoiros Educación Sexual"
 date: 2026-01-22
 category: "Actividades"
-image: "/img/uploads/obradoiros-sexualidade.jpg"
 layout: layouts/post.njk
 ---
 
