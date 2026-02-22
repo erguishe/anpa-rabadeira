@@ -2,7 +2,7 @@
 title: "Cargos ANPA"
 date: 2026-02-13
 category: "ANPA"
-image: "/img/uploads/logo-post.jpg"
+image: "/img/uploads/directiva-anpa.jpg"
 layout: layouts/post.njk
 ---
 
