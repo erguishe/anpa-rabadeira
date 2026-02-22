@@ -2,7 +2,7 @@
 title: "Resultados eleccións ANPA"
 date: 2026-02-11
 category: "ANPA"
-image: "/img/uploads/logo-post.jpg"
+image: "/img/uploads/resultados-eleccions.jpg"
 layout: layouts/post.njk
 ---
 

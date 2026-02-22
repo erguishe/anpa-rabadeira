@@ -1,6 +1,7 @@
 ---
 title: "Actividades Extraescolares"
 permalink: /extraescolares/
+image: "/img/uploads/extraescolares-rabadeira.jpg"
 layout: layouts/page.njk
 ---
 

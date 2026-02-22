@@ -1,6 +1,7 @@
 ---
 title: "Pago Comedor"
 permalink: /comedor/
+image: "/img/uploads/logo-post.jpg"
 layout: layouts/page.njk
 ---
 
