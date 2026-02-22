@@ -1,0 +1,81 @@
+---
+layout: layouts/base.njk
+title: "ANPA Ensino Rabadeira — CEIP Rabadeira"
+description: "Asociación de Nais e Pais de Alumnos do CEIP Rabadeira. Actividades, extraescolares, servizos e novas."
+---
+
+{# ===== HERO ===== #}
+<section class="hero">
+  <div class="container hero__content">
+    <div class="hero__badge">
+      <span class="hero__badge__dot"></span>
+      CEIP Rabadeira · Oleiros
+    </div>
+    <h1>
+      ANPA <span class="hero__accent">Ensino</span><br>
+      Rabadeira
+    </h1>
+    <p>Traballando xuntos pola educación, o benestar e a diversión das nosas fillas e fillos.</p>
+    <a href="mailto:{{ site.email }}" class="hero__email">
+      ✉️ {{ site.email }}
+    </a>
+  </div>
+</section>
+
+{# ===== ACCESO RÁPIDO ===== #}
+<section class="quick-access container">
+  <h2>Acceso rápido</h2>
+  <div class="quick-grid">
+    <a href="/inscripcion/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--blue">📝</div>
+      <span class="quick-card__label">Inscrición<br>Socios ANPA</span>
+    </a>
+    <a href="/extraescolares/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--gold">⚽</div>
+      <span class="quick-card__label">Actividades<br>Extraescolares</span>
+    </a>
+    <a href="/madrugadores/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--green">🌅</div>
+      <span class="quick-card__label">Servizo<br>Madrugadores</span>
+    </a>
+    <a href="/comedor/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--blue">🍽️</div>
+      <span class="quick-card__label">Pago<br>Comedor</span>
+    </a>
+    <a href="/memoria/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--gold">📊</div>
+      <span class="quick-card__label">Memoria<br>Anual</span>
+    </a>
+    <a href="/consello-escolar/" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--green">🏛️</div>
+      <span class="quick-card__label">Consello<br>Escolar</span>
+    </a>
+  </div>
+</section>
+
+{# ===== ÚLTIMAS NOVAS ===== #}
+<section class="section container">
+  <div class="section__header">
+    <h2 class="section__title">Últimas novas</h2>
+  </div>
+
+  <div class="posts-grid">
+    {%- for post in collections.posts | limit(6) %}
+    <article class="post-card">
+      <div class="post-card__body">
+        {% if post.data.category %}
+        <span class="post-card__category">{{ post.data.category }}</span>
+        {% endif %}
+        <h3 class="post-card__title">
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <p class="post-card__excerpt">{{ post.content | excerpt }}</p>
+        <div class="post-card__meta">
+          <span class="post-card__date">📅 {{ post.date | dataGalega }}</span>
+          <a href="{{ post.url }}" class="post-card__read">Ler máis →</a>
+        </div>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>

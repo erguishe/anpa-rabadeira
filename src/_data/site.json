@@ -1,0 +1,17 @@
+{
+  "name": "ANPA Ensino Rabadeira",
+  "fullName": "Asociación de Nais e Pais de Alumnos do CEIP Rabadeira",
+  "email": "anpaensinorabadeira@gmail.com",
+  "description": "Asociación de Nais e Pais de Alumnos do CEIP Rabadeira. Información sobre actividades, extraescolares, servizos e novas do centro.",
+  "url": "https://anpa-rabadeira.netlify.app",
+  "locale": "gl_ES",
+  "nav": [
+    { "label": "Inicio", "url": "/" },
+    { "label": "Inscrición", "url": "/inscripcion/" },
+    { "label": "Extraescolares", "url": "/extraescolares/" },
+    { "label": "Madrugadores", "url": "/madrugadores/" },
+    { "label": "Comedor", "url": "/comedor/" },
+    { "label": "Memoria", "url": "/memoria/" },
+    { "label": "Consello Escolar", "url": "/consello-escolar/" }
+  ]
+}

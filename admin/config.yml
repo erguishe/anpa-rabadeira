@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: "es"
+
+media_folder: "src/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  # ===== ARTÍCULOS / NOVAS =====
+  - name: "posts"
+    label: "📰 Artigos / Novas"
+    label_singular: "Artigo"
+    folder: "src/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        hint: "Título do artigo"
+      - label: "Data de publicación"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "DD/MM/YYYY"
+        time_format: false
+      - label: "Categoría"
+        name: "category"
+        widget: "select"
+        options:
+          - "Novas"
+          - "ANPA"
+          - "Actividades"
+          - "Extraescolares"
+          - "Socios ANPA"
+        default: "Novas"
+        hint: "Escolla a categoría do artigo"
+      - label: "Imaxe destacada"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Opcional: imaxe para mostrar co artigo"
+      - label: "Contido"
+        name: "body"
+        widget: "markdown"
+        hint: "Escriba aquí o contido do artigo. Pode usar negriña, listas, enlaces e subir imaxes."
+    meta:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "layouts/post.njk"
+
+  # ===== PÁXINAS FIXAS =====
+  - name: "pages"
+    label: "📄 Páxinas fixas"
+    label_singular: "Páxina"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+      - label: "URL da páxina"
+        name: "permalink"
+        widget: "string"
+        hint: "Ex: /extraescolares/ — debe comezar e rematar con /"
+      - label: "Contido"
+        name: "body"
+        widget: "markdown"
+    meta:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "layouts/page.njk"
