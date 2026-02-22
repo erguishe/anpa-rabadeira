@@ -2,6 +2,7 @@
 title: "Charla para familias TEA — Concello de Oleiros"
 date: 2026-02-05
 category: "Novas"
+image: "/img/uploads/charla-tea.png"
 layout: layouts/post.njk
 ---
 

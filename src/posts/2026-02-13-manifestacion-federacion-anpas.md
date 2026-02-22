@@ -2,6 +2,7 @@
 title: "Manifestación Federación ANPAs"
 date: 2026-02-13
 category: "Novas"
+image: "/img/uploads/img-wa0001.jpg"
 layout: layouts/post.njk
 ---
 
