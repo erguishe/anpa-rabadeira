@@ -47,11 +47,6 @@ collections:
         name: "body"
         widget: "markdown"
         hint: "Escriba aquí o contido do artigo. Pode usar negriña, listas, enlaces e subir imaxes."
-    meta:
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "layouts/post.njk"
 
   # ===== PÁXINAS FIXAS =====
   - name: "pages"
@@ -71,8 +66,3 @@ collections:
       - label: "Contido"
         name: "body"
         widget: "markdown"
-    meta:
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "layouts/page.njk"
