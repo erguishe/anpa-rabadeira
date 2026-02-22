@@ -2,6 +2,7 @@
 title: "Festa Entroido"
 date: 2026-02-03
 category: "Actividades"
+image: "/img/uploads/festa-entroido.jpg"
 layout: layouts/post.njk
 ---
 

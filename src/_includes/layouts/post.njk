@@ -11,6 +11,9 @@ layout: layouts/base.njk
     <time class="post-single__date" datetime="{{ date | isoDate }}">
       📅 {{ date | dataGalega }}
     </time>
+    {% if image %}
+    <img src="{{ image }}" alt="{{ title }}" class="post-single__image">
+    {% endif %}
   </header>
   <div class="post-content">
     {{ content | safe }}

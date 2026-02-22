@@ -2,6 +2,7 @@
 title: "Obradoiro Comunicación non Violenta"
 date: 2026-01-09
 category: "Actividades"
+image: "/img/uploads/cnv-rabadeira.png"
 layout: layouts/post.njk
 ---
 
