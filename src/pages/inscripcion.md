@@ -3,6 +3,11 @@ title: "Formulario Inscrición"
 permalink: /inscripcion/
 image: "/img/uploads/logo-post.jpg"
 layout: layouts/page.njk
+icon: "📝"
+navLabel: "Inscrición"
+navOrder: 1
+showInNav: true
+iconColor: "blue"
 ---
 
 No enlace inferior xa podedes facer a alta como socios da ANPA Ensino Rabadeira para o curso 2025-2026 (lembramos que é necesario facer a alta cada ano, ao non estar domiciliada).

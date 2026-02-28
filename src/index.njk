@@ -26,30 +26,12 @@ description: "Asociación de Nais e Pais de Alumnos do CEIP Rabadeira. Actividad
 <section class="quick-access container">
   <h2>Acceso rápido</h2>
   <div class="quick-grid">
-    <a href="/inscripcion/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--blue">📝</div>
-      <span class="quick-card__label">Inscrición<br>Socios ANPA</span>
+    {%- for pg in collections.navPages %}
+    <a href="{{ pg.data.permalink }}" class="quick-card">
+      <div class="quick-card__icon quick-card__icon--{{ pg.data.iconColor or 'blue' }}">{{ pg.data.icon or '📄' }}</div>
+      <span class="quick-card__label">{{ pg.data.title }}</span>
     </a>
-    <a href="/extraescolares/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--gold">⚽</div>
-      <span class="quick-card__label">Actividades<br>Extraescolares</span>
-    </a>
-    <a href="/madrugadores/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--green">🌅</div>
-      <span class="quick-card__label">Servizo<br>Madrugadores</span>
-    </a>
-    <a href="/comedor/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--blue">🍽️</div>
-      <span class="quick-card__label">Pago<br>Comedor</span>
-    </a>
-    <a href="/memoria/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--gold">📊</div>
-      <span class="quick-card__label">Memoria<br>Anual</span>
-    </a>
-    <a href="/consello-escolar/" class="quick-card">
-      <div class="quick-card__icon quick-card__icon--green">🏛️</div>
-      <span class="quick-card__label">Consello<br>Escolar</span>
-    </a>
+    {%- endfor %}
   </div>
 </section>
 

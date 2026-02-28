@@ -59,10 +59,46 @@ collections:
       - label: "Título"
         name: "title"
         widget: "string"
+        hint: "Nome da sección (aparecerá no menú e acceso rápido)"
       - label: "URL da páxina"
         name: "permalink"
         widget: "string"
         hint: "Ex: /extraescolares/ — debe comezar e rematar con /"
+      - label: "Nome curto (menú)"
+        name: "navLabel"
+        widget: "string"
+        required: false
+        hint: "Opcional: nome máis curto para o menú de arriba. Se non se pon, úsase o título."
+      - label: "Icona (emoji)"
+        name: "icon"
+        widget: "string"
+        hint: "Un emoji para o acceso rápido da portada. Ex: 📝 ⚽ 🌅 🍽️ 📊 🏛️"
+        required: false
+      - label: "Orde no menú"
+        name: "navOrder"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        max: 99
+        default: 10
+        hint: "Número para ordenar no menú (1 = primeiro, 99 = último)"
+      - label: "Mostrar no menú e acceso rápido"
+        name: "showInNav"
+        widget: "boolean"
+        default: true
+        hint: "Desactivar para ocultar esta páxina do menú sen borrala"
+      - label: "Cor da icona"
+        name: "iconColor"
+        widget: "select"
+        options:
+          - { label: "🔵 Azul", value: "blue" }
+          - { label: "🟡 Dourado", value: "gold" }
+          - { label: "🟢 Verde", value: "green" }
+        default: "blue"
+        hint: "Cor de fondo da icona no acceso rápido"
       - label: "Contido"
         name: "body"
         widget: "markdown"
+        hint: "Contido da páxina. Pode usar negriña, listas, enlaces, imaxes e HTML."
+    editor:
+      preview: false

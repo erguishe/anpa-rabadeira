@@ -28,6 +28,14 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/pages/*.md");
   });
 
+  // navPages: pages visible in nav & quick-access, sorted by navOrder
+  eleventyConfig.addCollection("navPages", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/pages/*.md")
+      .filter((p) => p.data.showInNav !== false)
+      .sort((a, b) => (a.data.navOrder || 99) - (b.data.navOrder || 99));
+  });
+
   // Date filters (Galician)
   const mesesGalego = [
     "xaneiro", "febreiro", "marzo", "abril", "maio", "xuño",
